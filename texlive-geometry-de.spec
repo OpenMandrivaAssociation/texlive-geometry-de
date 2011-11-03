@@ -1,3 +1,9 @@
+# revision 21882
+# category Package
+# catalog-ctan /macros/latex/contrib/geometry-de
+# catalog-date 2011-03-29 21:39:15 +0200
+# catalog-license lppl1.3
+# catalog-version 1.1
 Name:		texlive-geometry-de
 Version:	1.1
 Release:	1
@@ -24,6 +30,7 @@ Haase of the University of Jena.
 %doc %{_texmfdistdir}/doc/latex/geometry-de/geometry-de.dtx
 %doc %{_texmfdistdir}/doc/latex/geometry-de/geometry-de.pdf
 %doc %{_texmfdistdir}/doc/latex/geometry-de/geometry.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -34,3 +41,5 @@ Haase of the University of Jena.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
