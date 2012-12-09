@@ -38,3 +38,17 @@ Haase of the University of Jena.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.1-2
++ Revision: 752260
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.1-1
++ Revision: 718536
+- texlive-geometry-de
+- texlive-geometry-de
+- texlive-geometry-de
+- texlive-geometry-de
+
