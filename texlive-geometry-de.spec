@@ -6,7 +6,7 @@
 # catalog-version 1.1
 Name:		texlive-geometry-de
 Version:	1.1
-Release:	5
+Release:	6
 Summary:	German translation of the geometry package
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/geometry-de
