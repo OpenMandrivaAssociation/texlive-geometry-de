@@ -9,7 +9,7 @@ Version:	1.1
 Release:	13
 Summary:	German translation of the geometry package
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/geometry-de
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/geometry-de
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/geometry-de.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/geometry-de.doc.tar.xz
